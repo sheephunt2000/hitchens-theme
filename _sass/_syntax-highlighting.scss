@@ -14,8 +14,9 @@ code.highlighter-rouge {
   font-size: .875em;
   margin: 2rem auto;
 
-  > * {
+  > .highlight {
     padding: 0 1.5rem;
+    overflow-x: scroll;
   }
 
   .highlighter-rouge & {
